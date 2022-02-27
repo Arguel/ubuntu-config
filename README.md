@@ -5,7 +5,6 @@ Guide for installing my production environment
 
 - [Google Chrome](#google-chrome) - [Homepage](https://www.google.com/chrome/)
 - [cURL](#curl) - [Homepage](https://curl.se/)
-- [NVM](#nvm) (Node Version Manager) - [Official repository](https://github.com/nvm-sh/nvm)
 - [Git](#git) - [Homepage](https://git-scm.com/)
 - [Vim](#vim) - [Homepage](https://www.vim.org/)
 - [Neovim](#neovim) - [Homepage](https://neovim.io/)
@@ -13,6 +12,7 @@ Guide for installing my production environment
 - [Zsh](#zsh) - [Homepage](https://www.zsh.org/)
 - [Oh My ZSH](#oh-my-zsh) - [Homepage](https://ohmyz.sh/)
 - [Tmux](#tmux) - [Official repository](https://github.com/tmux/tmux)
+- [NVM](#nvm) (Node Version Manager) - [Official repository](https://github.com/nvm-sh/nvm)
 
 ### Google Chrome
 1. [Download the installer](https://www.google.com/chrome/)
@@ -24,13 +24,6 @@ Guide for installing my production environment
     <pre><code>sudo apt update && sudo apt upgrade</code></pre>
 2. Install cURL with the following command
     <pre><code>sudo apt install curl</code></pre>
-
-### NVM
-1. Installation instructions in its [official repository](https://github.com/nvm-sh/nvm#installing-and-updating)
-2. The other option is to continue with these commands <b>(outdated)</b>
-    <pre><code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash</code></pre>
-    <pre><code>source ~/.bashrc # update your current shell environment</code></pre>
-    <pre><code>nvm install node # "node" is an alias for the latest version</code></pre>
 
 ### Git
 1. Run the following command
@@ -61,3 +54,10 @@ Guide for installing my production environment
 ### Tmux
 1. Run the following command
     <pre><code>sudo apt install tmux</code></pre>
+    
+### NVM
+1. Installation instructions in its [official repository](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. The other option is to continue with these commands <b>(outdated)</b>
+    <pre><code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash</code></pre>
+    <pre><code>source ~/.bashrc # update your current shell environment</code></pre>
+    <pre><code>nvm install node # "node" is an alias for the latest version</code></pre>
