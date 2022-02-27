@@ -11,8 +11,8 @@ Guide for installing my production environment
 - [Neovim](#neovim) - [Homepage](https://neovim.io/)
 - [Screenfetch](#screenfetch) - [Official repository](https://github.com/KittyKatt/screenFetch)
 - [Zsh](#zsh) - [Homepage](https://www.zsh.org/)
-- [Oh My ZSH!](#oh-my-zsh!) - [Homepage](https://ohmyz.sh/)
-
+- [Oh My ZSH](#oh-my-zsh) - [Homepage](https://ohmyz.sh/)
+- [Tmux](#tmux) - [Official repository](https://github.com/tmux/tmux)
 
 ### Google Chrome
 1. [Download the installer](https://www.google.com/chrome/)
@@ -51,6 +51,13 @@ Guide for installing my production environment
 ### Zsh
 1. Run the following commands and configure your zsh
     <pre><code>sudo apt install zsh</code></pre>
-    <pre><code>zsh -v</code></pre>
+    <pre><code>zsh</code></pre>
     <b>If you plan to use Oh My ZSH! press the "q" key, otherwise press the number "2"</b>
 
+### Oh My ZSH
+1. Installation instructions in its [official repository](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
+2. <b>(optional)</b> [Install my setup](https://github.com/Arguel/oh-my-zsh-config)
+
+### Tmux
+1. Run the following command
+    <pre><code>sudo apt install tmux</code></pre>
