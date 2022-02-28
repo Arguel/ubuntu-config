@@ -65,4 +65,6 @@ Guide for installing my production environment
     <pre>
     <code>sudo apt install python3-pip</code>
     
+    <code>sudo apt install python3-venv</code>
+    
     <code>npm install -g neovim</code></pre>
