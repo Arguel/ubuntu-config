@@ -7,12 +7,12 @@ Guide for installing my production environment
 - [cURL](#curl) - [Homepage](https://curl.se/)
 - [Git](#git) - [Homepage](https://git-scm.com/)
 - [Vim](#vim) - [Homepage](https://www.vim.org/)
-- [Neovim](#neovim) - [Homepage](https://neovim.io/)
 - [Screenfetch](#screenfetch) - [Official repository](https://github.com/KittyKatt/screenFetch)
 - [Zsh](#zsh) - [Homepage](https://www.zsh.org/)
 - [Oh My ZSH](#oh-my-zsh) - [Homepage](https://ohmyz.sh/)
 - [Tmux](#tmux) - [Official repository](https://github.com/tmux/tmux)
 - [NVM](#nvm) (Node Version Manager) - [Official repository](https://github.com/nvm-sh/nvm)
+- [Neovim](#neovim) - [Homepage](https://neovim.io/)
 
 ### Google Chrome
 1. [Download the installer](https://www.google.com/chrome/)
@@ -32,10 +32,6 @@ Guide for installing my production environment
 ### Vim
 1. Run the following command
     <pre><code>sudo apt install vim-gtk3</code></pre>
-
-### Neovim
-1. Run the following command
-    <pre><code>sudo apt install neovim</code></pre>
 
 ### Screenfetch
 1. Run the following command
@@ -61,3 +57,12 @@ Guide for installing my production environment
     <pre><code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash</code></pre>
     <pre><code>source ~/.bashrc # update your current shell environment</code></pre>
     <pre><code>nvm install node # "node" is an alias for the latest version</code></pre>
+
+### Neovim
+1. Run the following command
+    <pre><code>sudo apt install neovim</code></pre>
+2. <b>(optional)</b> install dependencies
+    <pre>
+    <code>sudo apt install python3-pip</code>
+    
+    <code>npm install -g neovim</code></pre>
