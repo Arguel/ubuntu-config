@@ -60,7 +60,9 @@ Guide for installing my production environment
 
 ### Neovim
 1. Run the following command
-    <pre><code>sudo apt install neovim</code></pre>
+    <pre><code>sudo add-apt-repository ppa:neovim-ppa/unstable</code></pre>
+    <pre><code>sudo apt-get update</code></pre>
+    <pre><code>sudo apt-get install neovim</code></pre>
 2. <b>(optional)</b> install dependencies
     <pre>
     <code>sudo apt install python3-pip</code>
