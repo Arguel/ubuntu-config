@@ -32,6 +32,10 @@ Guide for installing my production environment
 ### Vim
 1. Run the following command
     <pre><code>sudo apt install vim-gtk3</code></pre>
+    **Or**
+    <pre><code>sudo add-apt-repository ppa:jonathonf/vim</code></pre>
+    <pre><code>sudo apt update</code></pre>
+    <pre><code>sudo apt install vim</code></pre>
 
 ### Screenfetch
 1. Run the following command
