@@ -13,6 +13,7 @@ Guide for installing my production environment
 - [Tmux](#tmux) - [Official repository](https://github.com/tmux/tmux)
 - [NVM](#nvm) (Node Version Manager) - [Official repository](https://github.com/nvm-sh/nvm)
 - [Neovim](#neovim) - [Homepage](https://neovim.io/)
+- [Postman](#postman) - [Homepage](https://www.postman.com/)
 
 ### Google Chrome
 1. [Download the installer](https://www.google.com/chrome/)
@@ -74,3 +75,8 @@ Guide for installing my production environment
     <code>sudo apt install python3-venv</code>
     
     <code>npm install -g neovim</code></pre>
+
+### Postman
+1. [Download the installer](https://www.postman.com/downloads/)
+2. Open your downloads folder in the terminal and install postman with the following command, you can use the <b>tab</b> key to autocomplete your version of postman download
+    <pre><code>tar -xzvf postman-9.15.2-linux-x64.tar.gz</code></pre>
