@@ -49,7 +49,7 @@ Guide for installing my production environment
 
 ### Oh My ZSH
 1. Installation instructions in its [official repository](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
-2. <b>(optional)</b> [Install my setup](https://github.com/Arguel/oh-my-zsh-config)
+2. <b>(optional)</b> [Install my setup](https://github.com/enzoarguello512/oh-my-zsh-config)
 
 ### Tmux
 1. Run the following command
