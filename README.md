@@ -77,6 +77,6 @@ Guide for installing my production environment
     <code>npm install -g neovim</code></pre>
 
 ### Postman
-1. [Download the installer](https://www.postman.com/downloads/)
-2. Open your downloads folder in the terminal and install postman with the following command, you can use the <b>tab</b> key to autocomplete your version of postman download
-    <pre><code>tar -xzvf postman-9.15.2-linux-x64.tar.gz</code></pre>
+1. Run the following command
+    <pre><code>sudo snap install postman</code></pre>
+
