@@ -28,7 +28,9 @@ Guide for installing my production environment
 
 ### Git
 1. Run the following command
-    <pre><code>sudo apt install git</code></pre>
+    <pre><code>sudo add-apt-repository ppa:git-core/ppa -y</code></pre>
+    <pre><code>sudo apt-get update</code></pre>
+    <pre><code>sudo apt-get install git -y</code></pre>
 
 ### Vim
 1. Run the following command
